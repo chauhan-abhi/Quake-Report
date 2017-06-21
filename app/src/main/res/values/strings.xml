@@ -14,11 +14,13 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Quake Report</string>
-    <string name="near_the">Near the</string>
-    <!-- Text color for the details of the earthquake in the list item -->
-    <color name="textColorEarthquakeDetails">#B4BAC0</color>
 
-    <!-- Text color for the primary location of the earthquake in the list item -->
-    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+    <string name="no_earthquakes">No earthquakes found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
 </resources>
